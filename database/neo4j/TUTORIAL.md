@@ -78,9 +78,9 @@ Here is a very simple app running migrations for the above configuration:
 import (
 	"log"
 
-	"github.com/yawatamikiya/test2/v4"
-	_ "github.com/yawatamikiya/test2/v4/database/neo4j"
-	_ "github.com/yawatamikiya/test2/v4/source/file"
+	"github.com/yawatamikiya/test3/v4"
+	_ "github.com/yawatamikiya/test3/v4/database/neo4j"
+	_ "github.com/yawatamikiya/test3/v4/source/file"
 )
 
 func main() {

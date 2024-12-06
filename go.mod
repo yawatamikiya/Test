@@ -1,4 +1,4 @@
-module github.com/yawatamikiya/test2/v4
+module github.com/yawatamikiya/test3/v4
 
 go 1.22.0
 

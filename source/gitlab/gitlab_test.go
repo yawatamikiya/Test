@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	st "github.com/yawatamikiya/test2/v4/source/testing"
+	st "github.com/yawatamikiya/test3/v4/source/testing"
 )
 
 var GitlabTestSecret = "" // username:token

@@ -13,12 +13,12 @@ import (
 
 	"github.com/dhui/dktest"
 	"github.com/docker/go-connections/nat"
-	"github.com/yawatamikiya/test2/v4"
+	"github.com/yawatamikiya/test3/v4"
 
-	dt "github.com/yawatamikiya/test2/v4/database/testing"
-	"github.com/yawatamikiya/test2/v4/dktesting"
+	dt "github.com/yawatamikiya/test3/v4/database/testing"
+	"github.com/yawatamikiya/test3/v4/dktesting"
 
-	_ "github.com/yawatamikiya/test2/v4/source/file"
+	_ "github.com/yawatamikiya/test3/v4/source/file"
 )
 
 const defaultPort = 1433

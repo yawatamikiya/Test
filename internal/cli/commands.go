@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yawatamikiya/test2/v4"
-	_ "github.com/yawatamikiya/test2/v4/database/stub" // TODO remove again
-	_ "github.com/yawatamikiya/test2/v4/source/file"
+	"github.com/yawatamikiya/test3/v4"
+	_ "github.com/yawatamikiya/test3/v4/database/stub" // TODO remove again
+	_ "github.com/yawatamikiya/test3/v4/source/file"
 )
 
 var (

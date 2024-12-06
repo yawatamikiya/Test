@@ -16,9 +16,9 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/yawatamikiya/test2/v4"
-	"github.com/yawatamikiya/test2/v4/database"
-	"github.com/yawatamikiya/test2/v4/database/multistmt"
+	"github.com/yawatamikiya/test3/v4"
+	"github.com/yawatamikiya/test3/v4/database"
+	"github.com/yawatamikiya/test3/v4/database/multistmt"
 	"github.com/hashicorp/go-multierror"
 	"github.com/jackc/pgerrcode"
 	"github.com/jackc/pgx/v5/pgconn"
@@ -354,7 +354,7 @@ func (p *Postgres) SetVersion(version int, dirty bool) error {
 
 	// Also re-write the schema version for nil dirty versions to prevent
 	// empty schema version for failed down migration on the first migration
-	// See: https://github.com/yawatamikiya/test2/issues/330
+	// See: https://github.com/yawatamikiya/test3/issues/330
 	if version >= 0 || (version == database.NilVersion && dirty) {
 		query = `INSERT INTO ` + quoteIdentifier(p.config.migrationsSchemaName) + `.` + quoteIdentifier(p.config.migrationsTableName) + ` (version, dirty) VALUES ($1, $2)`
 		if _, err := tx.Exec(query, version, dirty); err != nil {

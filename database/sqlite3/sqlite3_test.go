@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yawatamikiya/test2/v4"
-	dt "github.com/yawatamikiya/test2/v4/database/testing"
-	_ "github.com/yawatamikiya/test2/v4/source/file"
+	"github.com/yawatamikiya/test3/v4"
+	dt "github.com/yawatamikiya/test3/v4/database/testing"
+	_ "github.com/yawatamikiya/test3/v4/source/file"
 	_ "github.com/mattn/go-sqlite3"
 )
 

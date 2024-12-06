@@ -6,11 +6,11 @@ import (
 	"errors"
 	"log"
 
-	"github.com/yawatamikiya/test2/v4"
+	"github.com/yawatamikiya/test3/v4"
 	"github.com/markbates/pkger"
 
-	_ "github.com/yawatamikiya/test2/v4/database/postgres"
-	_ "github.com/yawatamikiya/test2/v4/source/pkger"
+	_ "github.com/yawatamikiya/test3/v4/database/postgres"
+	_ "github.com/yawatamikiya/test3/v4/source/pkger"
 	_ "github.com/lib/pq"
 )
 

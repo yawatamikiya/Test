@@ -13,9 +13,9 @@ cd examples/migrations && go-bindata -pkg migrations .
 
 ```go
 import (
-  "github.com/yawatamikiya/test2/v4"
-  "github.com/yawatamikiya/test2/v4/source/go_bindata"
-  "github.com/yawatamikiya/test2/v4/source/go_bindata/examples/migrations"
+  "github.com/yawatamikiya/test3/v4"
+  "github.com/yawatamikiya/test3/v4/source/go_bindata"
+  "github.com/yawatamikiya/test3/v4/source/go_bindata/examples/migrations"
 )
 
 func main() {

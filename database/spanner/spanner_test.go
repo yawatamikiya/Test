@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yawatamikiya/test2/v4"
+	"github.com/yawatamikiya/test3/v4"
 
-	dt "github.com/yawatamikiya/test2/v4/database/testing"
-	_ "github.com/yawatamikiya/test2/v4/source/file"
+	dt "github.com/yawatamikiya/test3/v4/database/testing"
+	_ "github.com/yawatamikiya/test3/v4/source/file"
 
 	"cloud.google.com/go/spanner/spannertest"
 	"github.com/stretchr/testify/assert"

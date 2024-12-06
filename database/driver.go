@@ -9,7 +9,7 @@ import (
 	"io"
 	"sync"
 
-	iurl "github.com/yawatamikiya/test2/v4/internal/url"
+	iurl "github.com/yawatamikiya/test3/v4/internal/url"
 )
 
 var (

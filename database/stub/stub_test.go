@@ -1,12 +1,12 @@
 package stub
 
 import (
-	"github.com/yawatamikiya/test2/v4"
-	"github.com/yawatamikiya/test2/v4/source"
-	"github.com/yawatamikiya/test2/v4/source/stub"
+	"github.com/yawatamikiya/test3/v4"
+	"github.com/yawatamikiya/test3/v4/source"
+	"github.com/yawatamikiya/test3/v4/source/stub"
 	"testing"
 
-	dt "github.com/yawatamikiya/test2/v4/database/testing"
+	dt "github.com/yawatamikiya/test3/v4/database/testing"
 )
 
 func Test(t *testing.T) {

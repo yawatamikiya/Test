@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yawatamikiya/test2/v4/source"
+	"github.com/yawatamikiya/test3/v4/source"
 )
 
 // Test runs tests against source implementations.

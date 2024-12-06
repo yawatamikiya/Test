@@ -8,7 +8,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
-	st "github.com/yawatamikiya/test2/v4/source/testing"
+	st "github.com/yawatamikiya/test3/v4/source/testing"
 	"github.com/stretchr/testify/assert"
 )
 

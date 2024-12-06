@@ -7,16 +7,16 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yawatamikiya/test2/v4"
+	"github.com/yawatamikiya/test3/v4"
 	"io"
 	"strings"
 	"testing"
 
 	"github.com/dhui/dktest"
 
-	dt "github.com/yawatamikiya/test2/v4/database/testing"
-	"github.com/yawatamikiya/test2/v4/dktesting"
-	_ "github.com/yawatamikiya/test2/v4/source/file"
+	dt "github.com/yawatamikiya/test3/v4/database/testing"
+	"github.com/yawatamikiya/test3/v4/dktesting"
+	_ "github.com/yawatamikiya/test3/v4/source/file"
 
 	_ "github.com/nakagami/firebirdsql"
 )

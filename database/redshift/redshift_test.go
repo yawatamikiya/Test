@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/yawatamikiya/test2/v4"
+	"github.com/yawatamikiya/test3/v4"
 	"io"
 	"strconv"
 	"strings"
@@ -22,10 +22,10 @@ import (
 )
 
 import (
-	"github.com/yawatamikiya/test2/v4/database"
-	dt "github.com/yawatamikiya/test2/v4/database/testing"
-	"github.com/yawatamikiya/test2/v4/dktesting"
-	_ "github.com/yawatamikiya/test2/v4/source/file"
+	"github.com/yawatamikiya/test3/v4/database"
+	dt "github.com/yawatamikiya/test3/v4/database/testing"
+	"github.com/yawatamikiya/test3/v4/dktesting"
+	_ "github.com/yawatamikiya/test3/v4/source/file"
 )
 
 const (

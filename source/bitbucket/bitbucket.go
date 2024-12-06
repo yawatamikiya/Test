@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/yawatamikiya/test2/v4/source"
+	"github.com/yawatamikiya/test3/v4/source"
 	"github.com/ktrysmt/go-bitbucket"
 )
 

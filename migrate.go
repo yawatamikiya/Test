@@ -13,9 +13,9 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/yawatamikiya/test2/v4/database"
-	iurl "github.com/yawatamikiya/test2/v4/internal/url"
-	"github.com/yawatamikiya/test2/v4/source"
+	"github.com/yawatamikiya/test3/v4/database"
+	iurl "github.com/yawatamikiya/test3/v4/internal/url"
+	"github.com/yawatamikiya/test3/v4/source"
 )
 
 // DefaultPrefetchMigrations sets the number of migrations to pre-read

@@ -10,7 +10,7 @@ import (
 )
 
 import (
-	"github.com/yawatamikiya/test2/v4/dktesting"
+	"github.com/yawatamikiya/test3/v4/dktesting"
 )
 
 func ExampleParallelTest() {

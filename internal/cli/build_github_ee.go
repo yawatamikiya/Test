@@ -4,5 +4,5 @@
 package cli
 
 import (
-	_ "github.com/yawatamikiya/test2/v4/source/github_ee"
+	_ "github.com/yawatamikiya/test3/v4/source/github_ee"
 )

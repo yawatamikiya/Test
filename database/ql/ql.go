@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"go.uber.org/atomic"
 
-	"github.com/yawatamikiya/test2/v4"
-	"github.com/yawatamikiya/test2/v4/database"
+	"github.com/yawatamikiya/test3/v4"
+	"github.com/yawatamikiya/test3/v4/database"
 	_ "modernc.org/ql/driver"
 )
 
@@ -215,7 +215,7 @@ func (m *Ql) SetVersion(version int, dirty bool) error {
 
 	// Also re-write the schema version for nil dirty versions to prevent
 	// empty schema version for failed down migration on the first migration
-	// See: https://github.com/yawatamikiya/test2/issues/330
+	// See: https://github.com/yawatamikiya/test3/issues/330
 	if version >= 0 || (version == database.NilVersion && dirty) {
 		query := fmt.Sprintf(`INSERT INTO %s (version, dirty) VALUES (uint64(?1), ?2)`,
 			m.config.MigrationsTable)

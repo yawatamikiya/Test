@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/yawatamikiya/test2/v4/database/multistmt"
+	"github.com/yawatamikiya/test3/v4/database/multistmt"
 )
 
 const maxMigrationSize = 1024

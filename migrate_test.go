@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	dStub "github.com/yawatamikiya/test2/v4/database/stub"
-	"github.com/yawatamikiya/test2/v4/source"
-	sStub "github.com/yawatamikiya/test2/v4/source/stub"
+	dStub "github.com/yawatamikiya/test3/v4/database/stub"
+	"github.com/yawatamikiya/test3/v4/source"
+	sStub "github.com/yawatamikiya/test3/v4/source/stub"
 )
 
 // sourceStubMigrations hold the following migrations:
@@ -116,7 +116,7 @@ func ExampleNewWithDatabaseInstance() {
 
 	// Create driver instance from db.
 	// Check each driver if it supports the WithInstance function.
-	// `import "github.com/yawatamikiya/test2/v4/database/postgres"`
+	// `import "github.com/yawatamikiya/test3/v4/database/postgres"`
 	instance, err := dStub.WithInstance(db, &dStub.Config{})
 	if err != nil {
 		log.Fatal(err)
@@ -166,7 +166,7 @@ func ExampleNewWithSourceInstance() {
 
 	// Create driver instance from DummyInstance di.
 	// Check each driver if it support the WithInstance function.
-	// `import "github.com/yawatamikiya/test2/v4/source/stub"`
+	// `import "github.com/yawatamikiya/test3/v4/source/stub"`
 	instance, err := sStub.WithInstance(di, &sStub.Config{})
 	if err != nil {
 		log.Fatal(err)

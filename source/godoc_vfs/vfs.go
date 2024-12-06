@@ -7,8 +7,8 @@
 package godoc_vfs
 
 import (
-	"github.com/yawatamikiya/test2/v4/source"
-	"github.com/yawatamikiya/test2/v4/source/httpfs"
+	"github.com/yawatamikiya/test3/v4/source"
+	"github.com/yawatamikiya/test3/v4/source/httpfs"
 
 	"golang.org/x/tools/godoc/vfs"
 	vfs_httpfs "golang.org/x/tools/godoc/vfs/httpfs"
