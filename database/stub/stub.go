@@ -6,7 +6,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/yawatamikiya/test/v4/database"
+	"github.com/yawatamikiya/test2/v4/database"
 )
 
 func init() {

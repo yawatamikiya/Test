@@ -19,7 +19,7 @@ FROM alpine:3.20
 
 RUN apk add --no-cache ca-certificates
 
-COPY --from=builder /go/src/github.com/yawatamikiya/test/build/migrate.linux-386 /usr/local/bin/migrate
+COPY --from=builder /go/src/github.com/yawatamikiya/test2/build/migrate.linux-386 /usr/local/bin/migrate
 RUN ln -s /usr/local/bin/migrate /migrate
 
 ENTRYPOINT ["migrate"]

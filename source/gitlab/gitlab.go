@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yawatamikiya/test/v4/source"
+	"github.com/yawatamikiya/test2/v4/source"
 	"github.com/xanzy/go-gitlab"
 )
 

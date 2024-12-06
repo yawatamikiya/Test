@@ -15,14 +15,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/yawatamikiya/test/v4"
+	"github.com/yawatamikiya/test2/v4"
 
 	"github.com/dhui/dktest"
 
-	"github.com/yawatamikiya/test/v4/database"
-	dt "github.com/yawatamikiya/test/v4/database/testing"
-	"github.com/yawatamikiya/test/v4/dktesting"
-	_ "github.com/yawatamikiya/test/v4/source/file"
+	"github.com/yawatamikiya/test2/v4/database"
+	dt "github.com/yawatamikiya/test2/v4/database/testing"
+	"github.com/yawatamikiya/test2/v4/dktesting"
+	_ "github.com/yawatamikiya/test2/v4/source/file"
 )
 
 const (

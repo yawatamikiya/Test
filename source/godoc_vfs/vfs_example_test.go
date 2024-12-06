@@ -1,8 +1,8 @@
 package godoc_vfs_test
 
 import (
-	"github.com/yawatamikiya/test/v4"
-	"github.com/yawatamikiya/test/v4/source/godoc_vfs"
+	"github.com/yawatamikiya/test2/v4"
+	"github.com/yawatamikiya/test2/v4/source/godoc_vfs"
 	"golang.org/x/tools/godoc/vfs/mapfs"
 )
 

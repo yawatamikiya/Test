@@ -7,9 +7,9 @@ import (
 	"embed"
 	"log"
 
-	"github.com/yawatamikiya/test/v4"
-	_ "github.com/yawatamikiya/test/v4/database/postgres"
-	"github.com/yawatamikiya/test/v4/source/iofs"
+	"github.com/yawatamikiya/test2/v4"
+	_ "github.com/yawatamikiya/test2/v4/database/postgres"
+	"github.com/yawatamikiya/test2/v4/source/iofs"
 )
 
 //go:embed testdata/migrations/*.sql

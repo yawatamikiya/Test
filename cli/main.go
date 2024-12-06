@@ -1,6 +1,6 @@
 package main
 
-import "github.com/yawatamikiya/test/v4/internal/cli"
+import "github.com/yawatamikiya/test2/v4/internal/cli"
 
 // Deprecated, please use cmd/migrate
 func main() {

@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/yawatamikiya/test/v4/source"
-	gh "github.com/yawatamikiya/test/v4/source/github"
+	"github.com/yawatamikiya/test2/v4/source"
+	gh "github.com/yawatamikiya/test2/v4/source/github"
 
 	"github.com/google/go-github/v39/github"
 )

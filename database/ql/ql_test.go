@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/yawatamikiya/test/v4"
-	dt "github.com/yawatamikiya/test/v4/database/testing"
-	_ "github.com/yawatamikiya/test/v4/source/file"
+	"github.com/yawatamikiya/test2/v4"
+	dt "github.com/yawatamikiya/test2/v4/database/testing"
+	_ "github.com/yawatamikiya/test2/v4/source/file"
 	_ "modernc.org/ql/driver"
 )
 

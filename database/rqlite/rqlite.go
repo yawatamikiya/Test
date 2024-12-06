@@ -9,8 +9,8 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/yawatamikiya/test/v4"
-	"github.com/yawatamikiya/test/v4/database"
+	"github.com/yawatamikiya/test2/v4"
+	"github.com/yawatamikiya/test2/v4/database"
 	"github.com/hashicorp/go-multierror"
 	"github.com/pkg/errors"
 	"github.com/rqlite/gorqlite"
@@ -187,7 +187,7 @@ func (r *Rqlite) SetVersion(version int, dirty bool) error {
 
 	// Also re-write the schema version for nil dirty versions to prevent
 	// empty schema version for failed down migration on the first migration
-	// See: https://github.com/yawatamikiya/test/issues/330
+	// See: https://github.com/yawatamikiya/test2/issues/330
 	insertQuery := fmt.Sprintf(`INSERT INTO %s (version, dirty) VALUES (?, ?)`, r.config.MigrationsTable)
 	if version >= 0 || (version == database.NilVersion && dirty) {
 		statements = append(statements, gorqlite.ParameterizedStatement{

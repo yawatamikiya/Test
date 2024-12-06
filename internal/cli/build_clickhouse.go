@@ -5,5 +5,5 @@ package cli
 
 import (
 	_ "github.com/ClickHouse/clickhouse-go"
-	_ "github.com/yawatamikiya/test/v4/database/clickhouse"
+	_ "github.com/yawatamikiya/test2/v4/database/clickhouse"
 )

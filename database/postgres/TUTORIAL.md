@@ -128,9 +128,9 @@ Here is a very simple app running migrations for the above configuration:
 import (
 	"log"
 
-	"github.com/yawatamikiya/test/v4"
-	_ "github.com/yawatamikiya/test/v4/database/postgres"
-	_ "github.com/yawatamikiya/test/v4/source/file"
+	"github.com/yawatamikiya/test2/v4"
+	_ "github.com/yawatamikiya/test2/v4/database/postgres"
+	_ "github.com/yawatamikiya/test2/v4/source/file"
 )
 
 func main() {

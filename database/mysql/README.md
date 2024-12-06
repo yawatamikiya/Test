@@ -29,9 +29,9 @@ import (
     "database/sql"
     
     _ "github.com/go-sql-driver/mysql"
-    "github.com/yawatamikiya/test/v4"
-    "github.com/yawatamikiya/test/v4/database/mysql"
-    _ "github.com/yawatamikiya/test/v4/source/file"
+    "github.com/yawatamikiya/test2/v4"
+    "github.com/yawatamikiya/test2/v4/database/mysql"
+    _ "github.com/yawatamikiya/test2/v4/source/file"
 )
 
 func main() {

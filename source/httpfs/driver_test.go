@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/yawatamikiya/test/v4/source/httpfs"
-	st "github.com/yawatamikiya/test/v4/source/testing"
+	"github.com/yawatamikiya/test2/v4/source/httpfs"
+	st "github.com/yawatamikiya/test2/v4/source/testing"
 )
 
 func TestNewOK(t *testing.T) {

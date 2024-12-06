@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/gobuffalo/here"
-	st "github.com/yawatamikiya/test/v4/source/testing"
+	st "github.com/yawatamikiya/test2/v4/source/testing"
 	"github.com/markbates/pkger"
 	"github.com/markbates/pkger/pkging"
 	"github.com/markbates/pkger/pkging/mem"

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yawatamikiya/test/v4/database"
+	"github.com/yawatamikiya/test2/v4/database"
 )
 
 // Test runs tests against database implementations.

@@ -10,8 +10,8 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/yawatamikiya/test/v4"
-	"github.com/yawatamikiya/test/v4/database"
+	"github.com/yawatamikiya/test2/v4"
+	"github.com/yawatamikiya/test2/v4/database"
 	"github.com/hashicorp/go-multierror"
 	_ "modernc.org/sqlite"
 )
@@ -241,7 +241,7 @@ func (m *Sqlite) SetVersion(version int, dirty bool) error {
 
 	// Also re-write the schema version for nil dirty versions to prevent
 	// empty schema version for failed down migration on the first migration
-	// See: https://github.com/yawatamikiya/test/issues/330
+	// See: https://github.com/yawatamikiya/test2/issues/330
 	if version >= 0 || (version == database.NilVersion && dirty) {
 		query := fmt.Sprintf(`INSERT INTO %s (version, dirty) VALUES (?, ?)`, m.config.MigrationsTable)
 		if _, err := tx.Exec(query, version, dirty); err != nil {

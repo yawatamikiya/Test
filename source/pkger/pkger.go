@@ -5,8 +5,8 @@ import (
 	"net/http"
 	stdurl "net/url"
 
-	"github.com/yawatamikiya/test/v4/source"
-	"github.com/yawatamikiya/test/v4/source/httpfs"
+	"github.com/yawatamikiya/test2/v4/source"
+	"github.com/yawatamikiya/test2/v4/source/httpfs"
 	"github.com/markbates/pkger"
 	"github.com/markbates/pkger/pkging"
 )
